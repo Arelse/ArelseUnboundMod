@@ -14,7 +14,7 @@ public class ArelseSettingsScreen extends Screen {
     private final Screen parent;
 
     public ArelseSettingsScreen(Screen parent) {
-        super(Component.literal("Arelse Unbound"));
+        super(Component.literal("Arelse Unbound Client"));
         this.parent = parent;
     }
 
