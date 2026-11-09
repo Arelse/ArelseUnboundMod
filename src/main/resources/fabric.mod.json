@@ -2,8 +2,8 @@
 	"schemaVersion": 1,
 	"id": "arelse-unbound",
 	"version": "${version}",
-	"name": "Arelse Unbound",
-	"description": "A client-side HUD with FPS, coordinates, potion effects, and durability, with a settings screen built into Mod Menu.",
+	"name": "Arelse Unbound Client",
+	"description": "A client-side HUD with FPS, CPS, coordinates, potion effects, and durability, with a settings screen built into Mod Menu.",
 	"authors": [
 		"Arelse"
 	],
