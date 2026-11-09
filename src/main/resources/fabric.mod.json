@@ -3,13 +3,12 @@
 	"id": "arelse-unbound",
 	"version": "${version}",
 	"name": "Arelse Unbound",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A client-side HUD with FPS, coordinates, potion effects, and durability, with a settings screen built into Mod Menu.",
 	"authors": [
-		"Me!"
+		"Arelse"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Arelse/ArelseUnboundMod"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/arelse-unbound/icon.png",
@@ -20,6 +19,9 @@
 		],
 		"client": [
 			"arelse.unbound.client.ArelseUnboundClient"
+		],
+		"modmenu": [
+			"arelse.unbound.client.ArelseModMenuIntegration"
 		]
 	},
 	"mixins": [
